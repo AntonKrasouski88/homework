@@ -1,0 +1,70 @@
+.chat {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.img {
+    display: flex;
+    align-items: end;
+}
+
+.chat img {
+    width: 80px;
+    border-radius: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+.letter {
+    font-size: larger;
+    font-style: inherit;
+    padding-bottom: 10px;
+}
+.time {
+    padding-left: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.wrapper {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column-reverse;
+     flex-direction: column-reverse;
+     -webkit-box-pack: end;
+     -ms-flex-pack: end;
+     justify-content: flex-end;
+ }
+.message {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #000;
+    background-color: #e6e7ec;
+    max-width: 600px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    margin: 15px 0;
+    word-break: break-all;
+    direction: ltr;
+}
+.message:after {
+     content: "";
+     width: 20px;
+     height: 12px;
+     display: block;
+     background-image: url("https://stageviewcincyshakes.firebaseapp.com/icon-gray-message.e6296433d6a72d473ed4.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     position: absolute;
+     bottom: -2px;
+     left: -5px;
+ }
