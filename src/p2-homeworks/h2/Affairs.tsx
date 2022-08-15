@@ -2,7 +2,7 @@ import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 
-type AffairsPropsType = { // need to fix any
+export type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
     setFilter: (type:FilterType)=>void
     deleteAffairCallback: (_id: number)=>void
