@@ -13,10 +13,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-align-self: center;
-    -ms-flex-item-align: center;
     align-self: center;
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1;
     margin: 20px;
     padding: 1.2em 2.8em;
@@ -45,45 +43,18 @@
 
 
 .red {
-    box-sizing: border-box;
-    background-color: transparent;
-    border: 2px solid #e74c3c;
-    border-radius: 0.6em;
-    font-size: 1rem;
-    line-height: 1;
-    margin: 20px;
-    padding: 1.2em 2.8em;
+    font-size: 20px;
+    font-family: monospace;
+    color:#FF4500;
+    background: linear-gradient(to left, #FF0080, #FF8C00, #40E0D0 );
     text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: red;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    -webkit-transition: color 150ms ease-in-out;
-    transition: color 150ms ease-in-out;
+    padding: 20px 70px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
 }
-.red:after {
 
-    content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 0;
-    height: 100%;
-    background: red;
-    z-index: -1;
-    -webkit-transition: width 150ms ease-in-out;
-    transition: width 150ms ease-in-out;
-}
 .red:hover {
+    background-position: right;
     color: #fff;
-}
-.red:hover:after {
-    width: 110%;
 }
