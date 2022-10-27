@@ -1,10 +1,21 @@
-.superInput {
 
+.superInput {
+    margin: 20px;
+    width: 200px;
+    border-radius: 0.5em;
+    border: 1px solid grey;
+    transition: 0.5s;
+    height: 30px;
+    box-sizing: border-box;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 0.5em;
+    border: 1px solid red;
+    box-sizing: border-box;
 }
 
 .error {
